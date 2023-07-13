@@ -12,6 +12,10 @@ h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
 p {
   margin-bottom: 1.5rem;
 }
@@ -19,6 +23,12 @@ img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+}
+.flex img {
+  max-width: 400px;
+}
+ul {
+  list-style-type: none;
 }
 
 .container {
@@ -28,7 +38,7 @@ img {
 }
 .flex {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
@@ -57,4 +67,16 @@ img {
 .header-section .container > * {
   max-width: 400px;
   margin-left: auto;
+}
+
+/* Failure Section */
+.failure-section {
+  padding: 4rem 0;
+}
+.failure-section ul li {
+  margin-bottom: 0.5rem;
+}
+.failure-section ul li i {
+  color: #16D887;
+  margin-right: 10px;
 }
