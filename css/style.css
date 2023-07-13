@@ -16,6 +16,10 @@ h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
 p {
   margin-bottom: 1.5rem;
 }
@@ -25,6 +29,7 @@ img {
   margin: 0 auto;
 }
 .flex img {
+  width: 100%;
   max-width: 400px;
 }
 ul {
@@ -116,4 +121,48 @@ ul {
 .banner-section .banner-card .btn {
   background-color: white;
   color: #F15B22;
+}
+
+/* Footer Section */
+.footer-section {
+  padding: 4rem 0;
+  background-color: #151414;
+  color: white;
+  margin-top: 4rem;
+}
+.footer-section .flex {
+  justify-content: space-between;
+  gap: 4rem;
+}
+.footer-section .footer-info > * {
+  margin-bottom: 1rem;
+}
+.footer-section .social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.footer-section img {
+  width: 40px;
+}
+.footer-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: flex-start;
+}
+.footer-section input {
+  border: none;
+}
+.footer-section input[type="email"] {
+  padding: 12px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-section {
+    padding: 4rem 0;
+  }
 }
