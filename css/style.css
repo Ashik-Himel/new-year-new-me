@@ -80,3 +80,25 @@ ul {
   color: #16D887;
   margin-right: 10px;
 }
+
+/* My Plan Section */
+.plan-section {
+  padding: 4rem 0;
+  text-align: center;
+}
+.plan-section .card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.plan-section .card-container .card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.plan-section .card img {
+  margin-bottom: 1rem;
+}
